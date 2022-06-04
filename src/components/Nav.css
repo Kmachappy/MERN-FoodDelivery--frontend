@@ -1,0 +1,11 @@
+.navbar{
+
+    width: 100%;
+    max-height: 100vmax;
+    background-color: aqua;
+}
+
+.navbar>a{
+    border: 1px solid rebeccapurple;
+    margin: 1vmax;
+}
