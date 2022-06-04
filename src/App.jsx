@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react"
 import Main from "./pages/Main";
+import Nav from "./components/Nav";
 
 export default () => {
 
@@ -9,6 +10,7 @@ export default () => {
   return(
   <div className="App">
     <Main/>
+    <Nav></Nav>
   </div>
 
   )
