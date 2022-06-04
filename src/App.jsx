@@ -1,8 +1,16 @@
 import React from "react";
+import { useState } from "react"
+import Main from "./pages/Main";
 
-export default () => (
-  <>
-    <h1>Welcome to React Vite Micro App!</h1>
-    <p>Hard to get more minimal than this React app.</p>
-  </>
-);
+export default () => {
+
+  const [user, setUser] = useState(null)
+
+  return(
+  <div className="App">
+    <Main/>
+  </div>
+
+  )
+}
+
